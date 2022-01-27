@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="with=device-with, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content= "ie=edge">
+<title>OY Chat</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js" 
+integrity="sha512-MgkNs0gNdrnOM7k+0L+wgiRc5aLgl74sJQKbIWegVIMvVGPc1+gc1L2oK9Wf/D9pq58eqIJAxOonYPVE5UwUFA==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="chat-wrap">
+    <h2>OY Chat</h2>
+    <div id="chat-window">
+        <div id="output"></div>
+            <div id="feedback"></div>
+    </div>
+    <input type="text" id="sender" placeholder="Ad">
+        <input type="text" id="message" placeholder="Mesaj">
+        <button id="SubmitBtn">Gonder</button>
+    </div>
+    <script
+        src="chat.js" charset="utf-8"></script>
+    </script>
+</body>
+</html>
